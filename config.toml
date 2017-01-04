@@ -1,0 +1,26 @@
+baseurl = "http://localhost"
+title = "Site Name"
+languageCode = "en-us"
+copyright = "Copyright right infomation."
+themesdir = "themes"
+theme = "hugo_eiio"
+Paginate=15 
+PaginatePath="page"
+pygmentsuseclasses = true
+disqusShortname = "user id"
+googleAnalytics='google analytics code'
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "site description"
+  author = "your name"
+  github ="github username"
+  duoshuo = false #disable duoshuo comment
+  securityPolicy = false #disable https content security policy
+  footerRight="Your tips content" #footer right content
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
