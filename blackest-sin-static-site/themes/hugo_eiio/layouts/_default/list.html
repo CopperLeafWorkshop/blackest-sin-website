@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div id="post">
+	<p><h2>{{.Title}} &nbsp;</p>
+	<hr/>
+	{{ range .Data.Pages.GroupByDate "2006" }}
+	<h3>{{ .Key }}</h3>
+	<ul>
+	  {{ range .Pages }}
+	  <li>{{.Date.Format "Mon, Jan 2, 2006" }}&nbsp;<a href="{{.Permalink}}">{{ .Title }}</a></li>
+	  {{ end }}
+	</ul>
+	{{ end }}
+	<hr/>
+	{{ partial "addthis" . }}
+	{{ partial "duoshuo" . }}
+      </div>
+    </div>
+    </div>
+{{ end }}
