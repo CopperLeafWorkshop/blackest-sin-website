@@ -1,0 +1,6 @@
++++
+name = ""
+image = ""
+tags = ["", ""]
+categories = ["", ""]
++++
