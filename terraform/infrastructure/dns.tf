@@ -11,4 +11,5 @@ resource "cloudflare_record" "www" {
     value = "copperleaf-blackestsin.s3-website-us-west-2.amazonaws.com"
     type = "CNAME"
     ttl = 3600
+    proxied = "true"
 }
