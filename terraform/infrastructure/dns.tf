@@ -8,7 +8,7 @@ provider "cloudflare" {
 resource "cloudflare_record" "root" {
     domain = "blackestsin.com"
     name = "@"
-    value = "copperleaf-blackestsin.s3-website-us-west-2.amazonaws.com"
+    value = "copperleaf-blackestsin-redirect.s3-website-us-west-2.amazonaws.com"
     type = "CNAME"
     ttl = 3600
     proxied = "false"
