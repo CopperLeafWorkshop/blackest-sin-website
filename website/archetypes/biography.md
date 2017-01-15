@@ -1,6 +1,4 @@
 +++
 name = ""
-position = ""
-alias = ""
 image = ""
 +++

@@ -16,45 +16,25 @@
       <ul class="nav navbar-nav">
         <li class="dropdown">
           <!-- home -->
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">News</a></li>
-            <li><a href="#">Updates</a></li>
-          </ul>
-        </li>
+        <li><a href="/">Home</a></li>
         <li class="dropdown">
           <!-- media -->
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Photos</a></li>
+            <li><a href="/photo/">Photos</a></li>
             <li role="separator" class="divider"></li>
             <!-- link to video list page-->
-            <li><a href="#">Video</a></li>
+            <li><a href="/video/">Video</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Music</a></li>
+            <li><a href="/audio/">Music</a></li>
           </ul>
         </li>
-        <li class="dropdown">
-          <!-- biography -->
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Biography<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <!-- list band member bios here with links to single pages-->
-            {{ range .Data.Pages }}
-            <li><a href="#">{{ .Title }}</a></li>
-            {{ end }}
-          </ul>
-        </li>
-        <li class="dropdown">
-          <!-- abuses -->
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Abuses<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <!-- list band member gear here with links to single pages-->
-                <li><a href="#">Name</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Shows</a></li>
-        <li><a href="#">Links</a></li>
-        <li><a href="#">Store</a></li>
+        <li><a href="/biography/">Biography</a></li>
+        <li><a href="/gear/">Abuses</a></li>
+        <li><a href="/shows/">Upcoming Shows</a></li>
+        <li><a href="/link/">Links</a></li>
+        <li><a href="/merchandise/">Store</a></li>
+        <li><a href="/contactus/">Contact Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
