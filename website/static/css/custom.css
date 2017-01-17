@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    #navbar-mobile {
+        text-align:center;
+        display: none;
+    }
+    #navbar-desktop {
+        display: block;
+    }
+    #nav-center {
+        float:none; 
+        display:inline-block
+    }
+}
