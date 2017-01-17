@@ -1,8 +1,10 @@
 {{ partial "header.html" . }}
+<body>
+{{ partial "navbar.html" . }}
 <section id="main">
   <div>
    <h1 id="title">{{ .Title }} </h1>
-   video summary goes here
+   links go here, this is list.html
         <ul id="list">
             {{ range .Data.Pages }}
                 {{ .Render "li"}}
