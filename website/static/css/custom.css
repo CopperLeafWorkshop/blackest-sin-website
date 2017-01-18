@@ -1,13 +1,33 @@
 @media (min-width: 768px) {
     #navbar-mobile {
-        text-align:center;
         display: none;
     }
     #navbar-desktop {
         display: block;
+        text-align:center;
     }
-    #nav-center {
+    .navbar-brand {
+        display: none;
+    }
+    #nav-ul-center {
         float:none; 
         display:inline-block
+    }
+    body {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 767px) {
+    #navbar-mobile {
+        display: block;
+    }
+    .navbar-brand {
+        display: inline;
+    }
+    #navbar-desktop {
+        display: none;
+    }
+    body {
+        margin-top: 50px;
     }
 }
